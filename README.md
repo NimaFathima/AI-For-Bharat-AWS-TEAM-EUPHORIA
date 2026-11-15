@@ -1,8 +1,8 @@
 # Artisan AI - Voice-First Marketplace for Indian Artisans
 
-Built by **Team EUPHORIA** (Sakhil N Maju and Nima Fathima) for the **AI for Bharat hackathon (AWS), 2026**.
+Built jointly by **Team EUPHORIA** - **Nima Fathima** and **Sakhil N Maju** - for the **AI for Bharat hackathon (AWS), 2026**.
 
-The main development repository is [Sakhil-N-Maju/AWS_ARTISAN](https://github.com/Sakhil-N-Maju/AWS_ARTISAN); this repository is a copy under my account. The marketplace UI is carried over from an earlier version of the same idea built on Next.js, Prisma and OpenAI: [Sakhil-N-Maju/indian_artisans](https://github.com/Sakhil-N-Maju/indian_artisans).
+We both committed to this project. The shared repository lives under Sakhil's account at [Sakhil-N-Maju/AWS_ARTISAN](https://github.com/Sakhil-N-Maju/AWS_ARTISAN); this repository is a copy under my account. The marketplace UI is carried over from an earlier version of the same idea built on Next.js, Prisma and OpenAI, which we also built together: [Sakhil-N-Maju/indian_artisans](https://github.com/Sakhil-N-Maju/indian_artisans) (the commit history there shows contributions from both of us).
 
 ---
 
@@ -39,9 +39,9 @@ Artisan (WhatsApp: photo + voice)
 | AWS Bedrock (Claude 3 Sonnet) | Service code written; **blocked by an AWS account/payment error** during the hackathon, so never verified |
 | Listing generation in the demo | Uses a **mock generator that returns template listings**. In the current code the mock is always on (`USE_MOCK_BEDROCK` is `... \|\| true` in `ai-pipeline.service.ts`), so the Bedrock path never runs until that line is changed |
 | Marketplace web app (`frontend-new`) | Built: shop, products, artisans, cart, stories, workshops, community, admin and dashboard pages. Falls back to mock data when the backend is unreachable |
-| Payments | Razorpay order, payment-verification and webhook routes exist in `frontend-new/app/api` (carried over from the earlier version); I have not verified them in this project |
+| Payments | Razorpay order, payment-verification and webhook routes exist in `frontend-new/app/api` (carried over from the earlier version); not verified in this project |
 
-So the integrations are implemented, but the voice-to-listing path was **not demonstrated with live Transcribe and Bedrock**. I removed the speed, accuracy and Lighthouse numbers an earlier version of this README listed, because they were never measured on the live pipeline.
+So the integrations are implemented, but the voice-to-listing path was **not demonstrated with live Transcribe and Bedrock**. An earlier version of this README listed speed, accuracy and Lighthouse numbers; they were removed because they were never measured on the live pipeline.
 
 ## Languages
 - WhatsApp replies (acknowledgement, listing preview, errors): English, Hindi, Tamil, Telugu, Malayalam, Bengali, Gujarati.
@@ -109,7 +109,8 @@ To use real Bedrock, get model access in your AWS account and change the `USE_MO
 - Artisan verification workflow, approved WhatsApp Business number.
 
 ## Team
-- **Sakhil N Maju** - repository owner, deployment
+Both of us worked on this project and its earlier version:
 - **Nima Fathima** - [@NimaFathima](https://github.com/NimaFathima)
+- **Sakhil N Maju** - [@Sakhil-N-Maju](https://github.com/Sakhil-N-Maju)
 
 B.Tech CSE (AI), Adi Shankara Institute of Engineering and Technology, Kalady.
