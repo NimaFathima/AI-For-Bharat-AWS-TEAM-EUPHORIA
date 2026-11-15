@@ -113,4 +113,6 @@ Both of us worked on this project and its earlier version:
 - **Nima Fathima** - [@NimaFathima](https://github.com/NimaFathima)
 - **Sakhil N Maju** - [@Sakhil-N-Maju](https://github.com/Sakhil-N-Maju)
 
+**About the commit history:** much of our work was done on shared machines, so many commits appear under only one of our names (often Sakhil's, because they were made from his laptop). The commit author is therefore not a reliable measure of who wrote what; this is a joint project.
+
 B.Tech CSE (AI), Adi Shankara Institute of Engineering and Technology, Kalady.
